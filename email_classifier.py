@@ -15,7 +15,7 @@ from sklearn.metrics import confusion_matrix
 stp_words=stopwords.words('english')
 tokenizer=Tokenizer()
 
-data = pd.read_csv(r"C:\Users\param\OneDrive\Desktop\spam_ham_dataset.csv")
+data = pd.read_csv(r"\spam_ham_dataset.csv")
 
 text_data= data.drop(axis=1,columns=['label', 'Unnamed: 0'])
 
