@@ -15,7 +15,7 @@ from sklearn.metrics import confusion_matrix
 stp_words = stopwords.words('english')
 tokenizer = Tokenizer()
 
-text_data =pd.read_excel(r"C:\Users\param\OneDrive\Desktop\Book1.xlsx")
+text_data =pd.read_excel(r"\Book1.xlsx")
 
 #text_data = data.drop(axis=1, columns=['tweet_id'])
 
