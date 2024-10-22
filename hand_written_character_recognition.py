@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.utils import shuffle
 
 
-data = pd.read_csv(r"C:\Users\param\OneDrive\Desktop\hand_char(4)\A_Z Handwritten Data\A_Z Handwritten Data.csv").astype('float32')
+data = pd.read_csv(r"\A_Z Handwritten Data.csv").astype('float32')
 
 print(data.head(10))
 
