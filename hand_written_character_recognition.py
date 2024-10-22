@@ -129,7 +129,7 @@ for i, ax in enumerate(axes):
 
 
 
-img = cv2.imread(r'C:\Users\abhij\Downloads\img_b.jpg')
+img = cv2.imread(r'Downloads\img_b.jpg')
 img_copy = img.copy()
 
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
